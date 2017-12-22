@@ -44,6 +44,7 @@ emulated_hue:
 # Amazon Echo example configuration.yaml entry
 emulated_hue:
 ```
+If you are using Amazon Echo generation 2, please note that "listen_port: 80" must be specefied, as it does not finds devices on the default port 8300 as the generation 1 does.
 
 Configuration variables:
 
